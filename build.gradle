@@ -1,7 +1,10 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+//将自定义的Gradle引入，相当于import xxx
+//plugin代表导入是插件，from代表的是导入文件
+apply from: "base.gradle"
 
 buildscript {
-    
+
     repositories {
         google()
         jcenter()

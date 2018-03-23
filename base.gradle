@@ -1,0 +1,24 @@
+ext {//扩展
+    //true：是集成模式
+    // false ：是组件模式
+    isModule = false
+
+    //方便统一管理版本信息
+    android = [//字典,相当于Map，里面存放的是键值对
+               compileSdkVersion: 26,//相当于键值对
+               minSdkVersion    : 19,
+               targetSdkVersion : 26,
+               versionCode      : 1,
+               versionName      : "1.0"
+    ]
+
+    appId = [
+            "app"   : "com.liuxiaozhu.plugin",
+            "modle1": "com.liuxiaozhu.modle1",
+            "modle2": "com.liuxiaozhu.modle2",
+    ]
+    supportLiblary = "26.1.0"
+    dependencies = [
+            "appcompat-v7": "com.android.support:appcompat-v7:${supportLiblary}",
+    ]
+}
