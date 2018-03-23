@@ -13,7 +13,7 @@ def cfg= rootProject.ext.android
 def appId= rootProject.ext.appId
 //将base.gradle中的基本数据设置进来。两种方式均可
 applicationId appId["app"]
-minSdkVersion cfg.minSdkVersion
+minSdkVersion cfg.minSdkVersion  
 
 4.为各个lib的Gradle配置集成模式和组件模式
    （1）首先根据isModule判断是当前moudle是组合还是集成模式
@@ -37,6 +37,7 @@ minSdkVersion cfg.minSdkVersion
                         }
                     }
                 }
-     其他配置同3
+     其他配置同3  
+     
 5.
 
