@@ -16,27 +16,27 @@ applicationId appId["app"]
 minSdkVersion cfg.minSdkVersion  
 
 4.为各个lib的Gradle配置集成模式和组件模式
-   （1）首先根据isModule判断是当前moudle是组合还是集成模式
-    if (isModule) {
+   （1）首先根据isModule判断是当前moudle是组合还是集成模式  
+    if (isModule) {  
         //集成模式
-        apply plugin: 'com.android.library'
-    } else {
-        //组件模式
-        apply plugin: 'com.android.application'
-    }
-    （2）为组件模式配置appid
+        apply plugin: 'com.android.library'  
+    } else {  
+        //组件模式  
+        apply plugin: 'com.android.application'  
+    }  
+    （2）为组件模式配置appid  
     （3）根据isModule加载不同的manifest，组件模式设置MainActivity
-        sourceSets {
-                    main {
-                        if (!isModule) {
-                            //组件模式下加载带Main函数的manifest
-                            manifest.srcFile 'src/main/debug/AndroidManifest.xml'
-                        } else {
+        sourceSets {  
+                    main {  
+                        if (!isModule) {  
+                            //组件模式下加载带Main函数的manifest  
+                            manifest.srcFile 'src/main/debug/AndroidManifest.xml'  
+                        } else {  
                             //集成模式
-                            manifest.srcFile 'src/main/java/AndroidManifest.xml'
-                        }
-                    }
-                }
+                            manifest.srcFile 'src/main/java/AndroidManifest.xml'  
+                        }  
+                    }  
+                }  
      其他配置同3  
      
 5.
