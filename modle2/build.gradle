@@ -12,9 +12,16 @@ android {
         targetSdkVersion cfg.targetSdkVersion
         versionCode cfg.versionCode
         versionName cfg.versionName
+
         if (!isModule) {
             applicationId appId["modle2"]
         }
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+        buildConfigField ("boolean","isModule",String.valueOf(isModule))
         sourceSets {
             main {
                 if (!isModule) {

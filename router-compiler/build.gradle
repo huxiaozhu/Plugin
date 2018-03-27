@@ -1,0 +1,19 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //动态注册，注解处理器
+    implementation 'com.google.auto.service:auto-service:1.0-rc3'
+    //apt动态生成java文件
+    implementation 'com.squareup:javapoet:1.9.0'
+    implementation project(':router-annotation')
+}
+//防止出现 Error:(49, 32) 错误: 编码GBK的不可映射字符
+//中文乱码
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

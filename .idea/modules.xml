@@ -4,8 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Plugin.iml" filepath="$PROJECT_DIR$/Plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/modle1/modle1.iml" filepath="$PROJECT_DIR$/modle1/modle1.iml" />
       <module fileurl="file://$PROJECT_DIR$/modle2/modle2.iml" filepath="$PROJECT_DIR$/modle2/modle2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-annotation/router-annotation.iml" filepath="$PROJECT_DIR$/router-annotation/router-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-compiler/router-compiler.iml" filepath="$PROJECT_DIR$/router-compiler/router-compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router-core/router-core.iml" filepath="$PROJECT_DIR$/router-core/router-core.iml" />
+      <module fileurl="file://E:\android-workspace\Plugin\router-annotation\router_annotation.iml" filepath="E:\android-workspace\Plugin\router-annotation\router_annotation.iml" />
     </modules>
   </component>
 </project>

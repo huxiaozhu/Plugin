@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.liuxiaozhu.modle1">
     <application>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Moudle1Activity"></activity>
     </application>
 </manifest>

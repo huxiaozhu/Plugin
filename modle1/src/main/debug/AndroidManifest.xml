@@ -6,7 +6,7 @@
         android:name=".moudleApplaction"
         >
         <!--配置组件化启动-->
-        <activity android:name=".MainActivity">
+        <activity android:name=".Moudle1Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

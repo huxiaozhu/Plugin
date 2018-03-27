@@ -15,12 +15,11 @@ android {
         targetSdkVersion cfg["targetSdkVersion"]
         versionCode cfg.versionCode
         versionName cfg.versionName
-
-//        javaCompileOptions {
-//            annotationProcessorOptions {
-//                arguments = [ moduleName : project.getName() ]
-//            }
-//        }
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
 
         //组件模式下
         if (!isModule) {

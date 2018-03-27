@@ -9,8 +9,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/base" />
             <option value="$PROJECT_DIR$/modle1" />
             <option value="$PROJECT_DIR$/modle2" />
+            <option value="$PROJECT_DIR$/router-annotation" />
+            <option value="$PROJECT_DIR$/router-compiler" />
+            <option value="$PROJECT_DIR$/router-core" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
