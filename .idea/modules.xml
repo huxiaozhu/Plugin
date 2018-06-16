@@ -10,7 +10,6 @@
       <module fileurl="file://$PROJECT_DIR$/router-annotation/router-annotation.iml" filepath="$PROJECT_DIR$/router-annotation/router-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/router-compiler/router-compiler.iml" filepath="$PROJECT_DIR$/router-compiler/router-compiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/router-core/router-core.iml" filepath="$PROJECT_DIR$/router-core/router-core.iml" />
-      <module fileurl="file://E:\android-workspace\Plugin\router-annotation\router_annotation.iml" filepath="E:\android-workspace\Plugin\router-annotation\router_annotation.iml" />
     </modules>
   </component>
 </project>

@@ -2,6 +2,7 @@ package com.liuxiaozhu.plugin;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.liuxiaozhu.router_annotation.Route;
 
